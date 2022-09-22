@@ -1,0 +1,8 @@
+
+
+============================== 2022-09-21 13:38:01.677796 | 4fabcf4d-6382-4364-8354-2578f1e4c290 ==============================
+[0m13:38:01.677816 [info ] [MainThread]: Running with dbt=1.2.1
+[0m13:38:01.680898 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/apple/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m13:38:01.681336 [debug] [MainThread]: Tracking: tracking
+[0m13:38:01.805598 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe3b224f9a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe3b224fa00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe3b224fb20>]}
+[0m13:38:01.807486 [info ] [MainThread]: Creating dbt configuration folder at /Users/apple/.dbt

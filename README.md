@@ -3,3 +3,8 @@ A city traffic department wants to collect traffic data using swarm UAVs (drones
 
 # Objective
 use the Extract Load Transform (ELT) framework using DBT. Unlike the Extract, Transform, Load (ETL), the ELT framework helps analytic engineers in the city traffic department setup transformation workflows on a need basis.
+# data 
+– each row represents the data of a single vehicle
+– the first 10 columns in the 1st row include the columns’ names
+– the first 4 columns include information about the trajectory like the unique trackID, the type of vehicle, the distance traveled in meters and the average speed of the vehicle in km/h
+– the last 6 columns are then repeated every 6 columns based on the time frequency. For example, column_5 contains the latitude of the vehicle at time column_10,
